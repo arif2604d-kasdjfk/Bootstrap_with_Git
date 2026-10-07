@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary px-3">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light fw-bolder" href="index.html">CoreWeb</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Feature
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#html">HTML</a></li>
+            <li><a class="dropdown-item" href="#css">CSS</a></li>
+            <li><a class="dropdown-item" href="#java">JavaScript</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex gap-3">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-info text-dark" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a class="navbar-brand text-dark" href="#">CoreWeb</a></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-dark" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Feature
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#html">HTML</a></li>
+            <li><a class="dropdown-item" href="#css">CSS</a></li>
+            <li><a class="dropdown-item" href="#java">JavaScript</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
+  </div>
+</div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/1735632096331.png" style="height: 500px; object-fit:cover;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/Html Pic.jpg" style="height: 500px; object-fit:cover;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/CSS Pic.jpg" style="height: 500px; object-fit:cover;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/Javasrcipt Pic.jpg" style="height: 500px; object-fit:cover;" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <div class="container-fluid mt-4">
+     <h1 id="home">Home Page</h1>
+    <p>Welcome to CoreWeb—your central hub for web development resources, core tutorials, and modern digital services. We empower developers and businesses with clean code, responsive design strategies, and cutting-edge web performance solutions. Explore our features or register today to unlock full access to our interactive learning tracks and project templates.</p>
+    <p>Welcome to CoreWeb, your ultimate destination for modern web development, intuitive design systems, and high-performance digital solutions. In an ever-evolving digital landscape, staying ahead requires a solid foundation in core technologies combined with the latest industry standards. Our platform is built to bridge the gap between basic concepts and enterprise-ready engineering, offering a comprehensive suite of resources, tutorials, and services crafted for developers, designers, and businesses alike.</p>
+
+    <p>Our curated learning pathways empower you to master the core building blocks of the modern web, from semantic HTML5 markup and responsive CSS styling to complex JavaScript applications. We emphasize practical, real-world application over abstract theory, ensuring that every guide, code snippet, and component standard you encounter can be implemented directly into your projects. Whether you are creating your first personal portfolio or scaling a high-traffic enterprise platform, our structured approach helps you write cleaner, more efficient, and fully accessible code.</p>
+    
+    <p>Beyond educational content, CoreWeb provides end-to-end technical solutions designed to elevate your digital presence and streamline your development workflows. We specialize in custom web application development, user interface design, site speed optimization, and cross-browser compatibility testing. By combining modular frontend frameworks with optimized backend architectures, we help organizations deliver lightning-fast, secure, and user-centric web applications that drive real business growth and long-term engagement.
+    </p>
+
+    <p>At the heart of our mission is a commitment to performance, accessibility, and modern web standards. We believe that every user deserves a seamless, fast, and inclusive online experience regardless of their device or network conditions. That’s why our development methodologies strictly align with Core Web Vitals, responsive design principles, and international WCAG guidelines, ensuring your digital products meet the highest benchmarks for search engine visibility and user satisfaction.</p>
+
+    <p>Ready to transform your web development process? Explore our extensive documentation, browse our feature modules, or join our growing developer community today. By registering for a CoreWeb account, you gain instant access to exclusive code libraries, interactive development environments, and personalized technical support. Step into the future of web design with CoreWeb—where solid fundamentals meet modern innovation.</p>
+
+    <hr>
+
+    <h2 id="html">HTML Page</h2>
+    <img src="Images/HTML5_logo_and_wordmark.svg.webp" class="float-end" style="width: 300px;" alt="">
+    <p>HTML (HyperText Markup Language) serves as the fundamental scaffolding of the World Wide Web, providing the necessary semantic structure for every digital document online. As the foundational layer of frontend development, HTML defines how text, images, multimedia, and interactive elements are organized and interpreted by web browsers. Understanding its core syntax and layout hierarchy is essential for building robust web applications that are properly indexed by search engines and correctly formatted across all device screens.</p>
+
+    <p>Modern web standards rely heavily on semantic HTML5 elements to convey meaning and intent rather than mere visual appearance. By utilizing structured tags like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;, &lt;section&gt;, and &lt;footer>, developers create document trees that clearly communicate page structure to search crawlers and assistive technologies. Writing clean, semantic markup improves search engine optimization (SEO) and ensures that content remains logical and navigable even when custom CSS styles fail to load or are rendered differently across user agents.</p>
+
+    <p>Accessibility (a11y) is built directly into standard HTML markup through appropriate tagging, attribute usage, and ARIA integration. Proper use of semantic form elements, explicit input labels, heading levels (&lt;h1&gt; through &lt;h6&gt;), and descriptive alternative text (alt) for visual media ensures that your website is fully usable by individuals relying on screen readers and keyboard navigation. Prioritizing native HTML interactive elements over custom scripted components leads to inherently accessible, predictable user experiences for every audience segment.</p>
+
+    <p>Beyond simple text layouts, modern HTML5 introduces powerful multimedia and interactive capabilities directly into the browser without requiring external plugins. Embedded &lt;video&gt; and &lt;audio&gt; tags allow seamless media streaming, while &lt;canvas&gt; and &lt;svg&gt; elements enable dynamic vector rendering and interactive graphics. Furthermore, HTML forms have evolved with specialized input types, pattern validation, and constraint validation attributes, allowing developers to handle user input securely and effectively on the client side before submitting data to a backend server.</p>
+
+    <p>As web development practices continue to advance, writing clean, valid, and modular HTML remains a critical skill for every frontend engineer. By maintaining strict adherence to W3C standards, avoiding legacy or deprecated elements, and organizing markup logically, you ensure maximum cross-browser compatibility and maintainability. Mastering HTML structural conventions establishes a strong, reliable base upon which sophisticated CSS styling, dynamic JavaScript functionality, and complex web framework architectures can seamlessly build.</p>
+
+    <h2 id="css">CSS Page</h2>
+    <img src="Images/CSS3_logo_and_wordmark.svg.webp" class="float-end" style="width: 230px;" alt="">
+    <p>Cascading Style Sheets (CSS) serves as the visual architecture of the modern web, transforming raw HTML documents into visually compelling, highly responsive user interfaces. While HTML defines the structural core of a webpage, CSS governs the layout, typography, color palettes, animations, and aesthetic tone. Mastering CSS enables developers to construct clean, consistent digital experiences that adapt seamlessly across an endless variety of screen sizes, input devices, and rendering engines.</p>
+
+    <p>Modern layout paradigms like Flexbox and CSS Grid have completely revolutionized how developers approach page composition. Gone are the days of brittle layout hacks and table-based structures; today’s CSS allows for precise control over complex multi-column grids, auto-adjusting flexible containers, and responsive alignment with minimal code. By combining these layout engines with media queries and modern viewport units, you can build fluid, adaptive interfaces that look exceptional whether viewed on a handheld smartphone, a laptop, or a high-resolution desktop monitor.</p>
+
+    <p>Beyond structural placement, CSS plays a vital role in enhancing user engagement and interface feedback through subtle motion design. Using CSS transitions, keyframe animations, and hardware-accelerated transforms, developers can craft fluid hover states, modal popups, page transitions, and interactive visual feedback without relying on heavy external JavaScript libraries. These lightweight visual cues guide user attention, improve navigational cues, and give web applications a polished, native-app feel.</p>
+
+    <p>Maintainability and scalability are at the center of modern CSS architecture. With native features like CSS Custom Properties (CSS variables), color-scheme toggling, and modern logical properties, developers can implement sitewide design tokens and seamless light/dark mode themes with absolute ease. Furthermore, leverageable modular approaches—such as utility-first frameworks like Bootstrap and Tailwind or methodologies like BEM—help engineering teams keep stylesheets clean, avoid specificity conflicts, and scale UI design systems across massive codebases efficiently.</p>
+
+    <p>Ultimately, writing high-quality CSS is as much about performance and accessibility as it is about aesthetic design. Well-crafted stylesheets minimize render-blocking delays, ensure high visual contrast for readability, and preserve user preferences like reduced motion settings. By prioritizing CSS standards, optimizing asset delivery, and leveraging modern browser rendering capabilities, you ensure that your web applications deliver fast, accessible, and unforgettable visual experiences to every visitor.</p>
+
+    <h2 id="java">JavaScript Page</h2>
+    <img src="Images/JavaScript-Logo.png" class="float-end" style="width: 400px;" alt="">
+    <p>JavaScript is the universal programming language of the modern web, empowering static markup to transform into rich, dynamic, and highly interactive software applications. Operating as the client-side engine inside every web browser, JavaScript enables real-time document manipulation, asynchronous data fetching, form validation, and complex UI state management. Without it, the modern web would remain a collection of static text pages rather than the functional, desktop-like web applications users rely on daily.</p>
+
+    <p>At the core of browser-based JavaScript is the ability to interact directly with the Document Object Model (DOM) and browser events. Developers can select page elements, modify inline styles, dynamically create or remove HTML components, and respond instantly to user inputs like clicks, keypresses, and scrolling. Through modern web APIs such as the Fetch API and WebSockets, JavaScript communicates seamlessly with backend servers in the background, updating page content on the fly without requiring a full page refresh.</p>
+
+    <p>The evolution of modern JavaScript—guided by the ECMAScript standard—has elevated the language from a simple browser scripting utility to a robust, full-featured programming language. Modern syntax features like arrow functions, destructuring, promises, async/await, modules, and classes have simplified asynchronous programming and improved code readability. These language enhancements allow engineering teams to write cleaner, more maintainable, and highly efficient codebases capable of powering enterprise-grade web applications.</p>
+
+    <p>Beyond client-side browser execution, JavaScript has expanded into a unified, full-stack development ecosystem. With backend environments like Node.js, JavaScript allows developers to write server-side APIs, manage database connections, and build scalable network applications using a single programming language across the entire stack. Coupled with powerful frontend libraries and frameworks like React, Vue, and Angular, JavaScript streamlines product development by enabling component-based architectures and reusable code modules.</p>
+    
+    <p>Writing performance-oriented JavaScript requires a deep understanding of memory management, execution context, event loop mechanics, and browser rendering lifecycles. By optimizing script execution, minifying asset bundles, minimizing DOM thrashing, and leveraging asynchronous execution patterns, developers ensure that web applications remain fast and responsive. Mastering JavaScript unlocks the potential to build scalable web platforms, interactive data visualizers, progressive web apps (PWAs), and cross-platform mobile applications.</p>
+
+
+    <hr>
+    <h2>Something Else Here Page</h2>
+    <p>Looking to go beyond HTML and CSS? Dive into JavaScript frameworks, server-side development, database optimization, and cloud deployment pipelines. This section covers advanced technical topics, developer toolchains, and modern industry practices designed to take your core web development skills from basic static sites to scalable, full-stack web applications.</p>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
